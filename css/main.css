@@ -1,45 +1,304 @@
+/* Para movil 568*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-/* media 768 */
 body {
     font-family: "Roboto", sans-serif;
 }
 header {
-    padding: 80px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    display: inline-block;
+    padding: 50px 20px 50px 20px;
+    background-color: rgb(101, 134, 134);
 }
-
 .tit,
 .sub {
     text-transform: uppercase;
     text-shadow: 2px 1px 8px rgb(121, 121, 171);
-    color: rgb(25, 133, 97);
+    color: rgb(153, 226, 202);
+    text-align: center;
+    font-size: 40px;
+}
+.sub {
+    font-size: 20px;
+}
+nav {
+    display: inline;
+}
+.navegacion {
+    padding: 20px;
+    background-color: rgb(145, 219, 182);
+}
+ul {
     text-align: center;
 }
-
-nav {
-    display: inline-block;
-}
-
-.navegacion {
-    margin-left: 90px;
+li {
+    list-style: none;
+    display: inline;
 }
 a {
     text-decoration: none;
+    color: rgb(10, 90, 90);
+    font-size: 22px;
+    letter-spacing: 3px;
+}
+a:hover {
+    color: #ad3f3f;
+}
+.servicios {
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-family: "Asap Sharp", sans-serif;
+    letter-spacing: 2px;
+}
+.web p {
+    color: rgb(28, 58, 48);
+    padding: 50px;
+}
+.grafico p {
+    color: rgb(8, 81, 90);
+    padding: 50px;
 }
 
-li {
-    list-style: none;
+aside {
+    background-color: lab(65.1% -29.63 65.83);
+    border-radius: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(4, 101, 101);
+    width: 300px;
+    margin: 0 auto;
+}
+.novedad,
+h3,
+p {
+    padding: 10px;
+}
+footer {
+    background-color: rgb(75, 108, 108);
+    margin-top: 100px;
+    text-align: center;
+}
+.foo p,
+.foo a {
+    color: rgb(34, 1, 1);
+    font-size: 1.1rem;
 }
 
-@media screen and (min-width: 992px) {
+/* tablet 768 */
+@media (min-width: 768px) {
+    header {
+        padding: 50px 20px 50px 20px;
+        background-color: rgb(55, 137, 220);
+    }
+    .tit,
+    .sub {
+        text-transform: uppercase;
+        text-shadow: 2px 1px 8px rgb(121, 121, 171);
+        color: rgb(18, 22, 223);
+        text-align: center;
+    }
+    .navegacion {
+        background-color: rgb(56, 75, 215);
+    }
+    nav {
+        display: inline;
+    }
+    ul {
+        text-align: center;
+    }
+    li {
+        list-style: none;
+        display: inline;
+    }
+    a {
+        color: rgb(126, 209, 209);
+        letter-spacing: 3.5px;
+    }
+    a:hover {
+        color: #dedb53;
+    }
+
+    .servicios h2 {
+        letter-spacing: 3px;
+        color: #ad3f3f;
+        font-size: 1.5rem;
+    }
+
+    .web p {
+        color: rgb(30, 3, 153);
+        padding: 50px;
+        letter-spacing: 3px;
+    }
+    .grafico p {
+        color: rgb(96, 12, 121);
+        letter-spacing: 3px;
+    }
+
+    aside {
+        background-color: lab(59.66% -29.96 -15.53);
+        border-radius: 30px 30px 2px px;
+        text-align: center;
+        margin-bottom: 20px;
+        color: rgb(4, 19, 185);
+        width: 300px;
+        margin: 0 auto;
+        letter-spacing: 3px;
+    }
+    .novedad,
+    h3,
+    p {
+        padding: 10px;
+    }
+    footer {
+        background-color: rgb(18, 35, 189);
+        margin-top: 80px;
+        text-align: center;
+    }
+    .foo p,
+    .foo a {
+        color: rgb(225, 218, 218);
+        font-size: 1.1rem;
+        letter-spacing: 2px;
+    }
 }
 
-@media screen and (min-width: 1200px) {
+/* mini ordenador 992 */
+@media (min-width: 992px) {
+    header {
+        padding: 50px;
+    }
+    .tit,
+    .sub {
+        text-transform: uppercase;
+        text-shadow: 2px 1px 8px rgb(23, 23, 36);
+        color: rgb(88, 8, 92);
+        text-align: center;
+    }
+    nav {
+        display: block;
+    }
+    li {
+        display: inline;
+    }
+    ul {
+        text-align: center;
+    }
+    .navegacion {
+        background-color: rgb(82, 91, 150);
+    }
+    a {
+        color: rgb(13, 38, 165);
+    }
+    a:hover {
+        color: #cbbaba;
+    }
+    .servicios h2 {
+        letter-spacing: 4px;
+        color: #4e6e7d;
+    }
+
+    .web p {
+        color: rgb(42, 28, 100);
+        letter-spacing: 4px;
+    }
+    .grafico p {
+        color: rgb(169, 11, 217);
+        letter-spacing: 3px;
+    }
+
+    aside {
+        background-color: lab(59.27% 0.14 62.56);
+        border-radius: 30px 30px 0px 0px;
+        margin-bottom: 20px;
+        color: rgb(110, 4, 45);
+        letter-spacing: 4px;
+    }
+    .novedad,
+    h3,
+    p {
+        padding: 20px;
+    }
+    footer {
+        background-color: rgb(88, 91, 119);
+        text-align: center;
+    }
+    .foo p,
+    .foo a {
+        color: rgb(8, 173, 188);
+        font-size: 1.1rem;
+        letter-spacing: 4px;
+    }
+}
+
+/* 1200 sobremesa */
+@media (min-width: 1200px) {
+    header {
+        background-color: white;
+        padding: 40px;
+    }
+    .tit,
+    .sub {
+        text-transform: uppercase;
+        text-shadow: 2px 1px 8px rgb(23, 23, 36);
+        color: rgb(20, 4, 115);
+        text-align: center;
+    }
+    nav {
+        display: block;
+    }
+    li {
+        display: inline;
+    }
+    ul {
+        text-align: center;
+    }
+    .navegacion {
+        background-color: rgb(186, 189, 215);
+        text-decoration: none;
+    }
+    a {
+        color: rgb(13, 38, 165);
+    }
+    a:hover {
+        color: #0e7a77;
+    }
+    .servicios h2 {
+        letter-spacing: 4px;
+        color: #0840a8;
+    }
+
+    .web p {
+        color: rgb(78, 38, 238);
+        letter-spacing: 4px;
+    }
+    .grafico p {
+        color: rgb(119, 14, 151);
+        letter-spacing: 3px;
+    }
+
+    aside {
+        background-color: lab(76.04% -39.69 -14.01);
+        border-radius: 30px 30px 0px 0px;
+        margin-bottom: 20px;
+        color: rgb(26, 5, 13);
+        letter-spacing: 4px;
+    }
+    .novedad,
+    h3,
+    p {
+        padding: 20px;
+    }
+    footer {
+        background-color: rgb(61, 66, 113);
+        margin-top: 120px;
+        text-align: center;
+    }
+    .foo p,
+    .foo a {
+        color: rgb(222, 236, 245);
+        font-size: 1.1rem;
+        letter-spacing: 4px;
+    }
 }
