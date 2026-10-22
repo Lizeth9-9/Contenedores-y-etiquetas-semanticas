@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* media 768 */
+body {
+    font-family: "Roboto", sans-serif;
+}
+header {
+    padding: 80px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.tit,
+.sub {
+    text-transform: uppercase;
+    text-shadow: 2px 1px 8px rgb(121, 121, 171);
+    color: rgb(25, 133, 97);
+    text-align: center;
+}
+
+nav {
+    display: inline-block;
+}
+
+.navegacion {
+    margin-left: 90px;
+}
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+@media screen and (min-width: 992px) {
+}
+
+@media screen and (min-width: 1200px) {
+}
